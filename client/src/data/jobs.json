@@ -40,6 +40,8 @@
     "openJobs": 120,
     "applicants": "50+",
     "activelyHiring": true,
+    "urgentHiring": true,
+    "featured": true,
     "companyDescription": "Google is a multinational technology company focused on search, cloud computing and artificial intelligence."
   },
   {
@@ -83,6 +85,8 @@
     "openJobs": 85,
     "applicants": "40+",
     "activelyHiring": true,
+    "urgentHiring": false,
+    "featured": true,
     "companyDescription": "Microsoft is a global technology company focused on operating systems, productivity software, and cloud computing."
   },
   {
@@ -126,6 +130,8 @@
     "openJobs": 95,
     "applicants": "30+",
     "activelyHiring": true,
+    "urgentHiring": true,
+    "featured": false,
     "companyDescription": "Apple is a global technology company designing premium consumer electronics, software, and cloud services."
   },
   {
@@ -169,6 +175,8 @@
     "openJobs": 240,
     "applicants": "75+",
     "activelyHiring": true,
+    "urgentHiring": false,
+    "featured": false,
     "companyDescription": "Amazon focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence."
   },
   {
@@ -212,6 +220,8 @@
     "openJobs": 45,
     "applicants": "20+",
     "activelyHiring": true,
+    "urgentHiring": true,
+    "featured": false,
     "companyDescription": "Netflix is a streaming entertainment service offering a massive library of movies, TV shows, and original content."
   }
 ]

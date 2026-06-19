@@ -80,6 +80,19 @@ const CompanyInfo = ({ job }) => {
           <StatItem label="Open Jobs" value={job.openJobs} />
         </div>
 
+        {/* Trust Indicators */}
+        <div className="mt-4 pt-4 border-t border-gray-100 space-y-2 text-sm text-green-600 font-medium">
+          <div className="flex items-center gap-1.5">
+            <span>✓</span> Verified Employer
+          </div>
+          <div className="flex items-center gap-1.5">
+            <span>✓</span> Actively Hiring
+          </div>
+          <div className="flex items-center gap-1.5">
+            <span>✓</span> Fast Response
+          </div>
+        </div>
+
         {/* Industry */}
         <div className="mt-4 pt-4 border-t border-gray-100">
           <p className="text-gray-500 text-sm">Industry</p>
