@@ -10,9 +10,11 @@ const RelatedJobs = ({ currentJob, jobs }) => {
 
   if (relatedJobs.length === 0) {
     return (
-      <p>
-        No related jobs found
-      </p>
+      <div className="bg-white border border-gray-200 rounded-2xl shadow-sm p-6 mt-6 text-center">
+        <p className="text-gray-500 text-sm">
+          No related jobs found
+        </p>
+      </div>
     );
   }
 
@@ -23,27 +25,25 @@ const RelatedJobs = ({ currentJob, jobs }) => {
       className="
         bg-white
         border
+        border-gray-200
         rounded-2xl
+        shadow-sm
         p-6
         mt-6
       "
+      aria-label="Related Jobs Section"
     >
       <h2
         className="
           text-xl
           font-semibold
-          mb-5
+          mb-6
+          text-gray-900
         "
       >
         Related Jobs
       </h2>
-      <div
-        className="
-          grid
-          md:grid-cols-2
-          gap-4
-        "
-      >
+      <div className="flex flex-col gap-4">
         {jobsToShow.map((job) => (
           <JobCard
             key={job.id}
